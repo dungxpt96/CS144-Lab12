@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20170925 14:50:37.015" generator="Robot 3.0.2 (Python 2.7.12 on linux2)">
+<suite source="/home/dungnh/Documents/lab12/robot-lab12-test.robot" id="s1" name="Robot-Lab12-Test">
+<test id="s1-t1" name="Client sends data">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=1</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:50:42.083" level="INFO">Starting tests...
+
+Results
+-------
+  1. Client sends data ................................................ FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:50:42.084" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:50:42.084" starttime="20170925 14:50:37.057"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:50:42.085" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:50:42.085" starttime="20170925 14:50:42.084"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:50:42.085" critical="yes" starttime="20170925 14:50:37.057">False != True</status>
+</test>
+<test id="s1-t2" name="Client receives data">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=2</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:50:47.110" level="INFO">Starting tests...
+
+Results
+-------
+  2. Client receives data ............................................. FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:50:47.111" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:50:47.111" starttime="20170925 14:50:42.086"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:50:47.111" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:50:47.112" starttime="20170925 14:50:47.111"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:50:47.112" critical="yes" starttime="20170925 14:50:42.085">False != True</status>
+</test>
+<test id="s1-t3" name="Correct checksum">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=3</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:50:57.144" level="INFO">Starting tests...
+
+Results
+-------
+  3. Correct checksum ................................................. FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:50:57.144" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:50:57.144" starttime="20170925 14:50:47.112"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:50:57.145" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:50:57.145" starttime="20170925 14:50:57.144"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:50:57.145" critical="yes" starttime="20170925 14:50:47.112">False != True</status>
+</test>
+<test id="s1-t4" name="Correct header fields">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=4</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:02.171" level="INFO">Starting tests...
+
+Results
+-------
+  4. Correct header fields ............................................ FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:02.171" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:02.171" starttime="20170925 14:50:57.146"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:02.172" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:02.172" starttime="20170925 14:51:02.172"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:02.172" critical="yes" starttime="20170925 14:50:57.145">False != True</status>
+</test>
+<test id="s1-t5" name="Bidirectionally transfer data">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=5</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:07.207" level="INFO">Starting tests...
+
+Results
+-------
+  5. Bidirectionally transfer data .................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:07.207" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:07.207" starttime="20170925 14:51:02.173"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:07.209" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:07.209" starttime="20170925 14:51:07.208"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:07.209" critical="yes" starttime="20170925 14:51:02.173">False != True</status>
+</test>
+<test id="s1-t6" name="Handles data larger than window size">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=6</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:17.253" level="INFO">Starting tests...
+
+Results
+-------
+  6. Handles data larger than window size ............................. FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:17.253" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:17.253" starttime="20170925 14:51:07.210"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:17.254" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:17.254" starttime="20170925 14:51:17.253"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:17.254" critical="yes" starttime="20170925 14:51:07.209">False != True</status>
+</test>
+<test id="s1-t7" name="Handles segment corruption">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=7</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:27.284" level="INFO">Starting tests...
+
+Results
+-------
+  7. Handles segment corruption ....................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:27.284" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:27.284" starttime="20170925 14:51:17.255"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:27.285" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:27.285" starttime="20170925 14:51:27.284"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:27.285" critical="yes" starttime="20170925 14:51:17.254">False != True</status>
+</test>
+<test id="s1-t8" name="Handles segment drops">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=8</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:37.314" level="INFO">Starting tests...
+
+Results
+-------
+  8. Handles segment drops ............................................ FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:37.314" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:37.314" starttime="20170925 14:51:27.286"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:37.315" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:37.315" starttime="20170925 14:51:37.314"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:37.315" critical="yes" starttime="20170925 14:51:27.285">False != True</status>
+</test>
+<test id="s1-t9" name="Handles segment delay">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=9</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:47.352" level="INFO">Starting tests...
+
+Results
+-------
+  9. Handles segment delay ............................................ FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:47.352" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:47.352" starttime="20170925 14:51:37.316"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:47.353" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:47.353" starttime="20170925 14:51:47.353"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:47.353" critical="yes" starttime="20170925 14:51:37.315">False != True</status>
+</test>
+<test id="s1-t10" name="Handles duplicate segments">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=10</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:51:57.386" level="INFO">Starting tests...
+
+Results
+-------
+  10. Handles duplicate segments ...................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:51:57.386" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:51:57.386" starttime="20170925 14:51:47.354"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:51:57.387" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:51:57.387" starttime="20170925 14:51:57.386"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:51:57.387" critical="yes" starttime="20170925 14:51:47.354">False != True</status>
+</test>
+<test id="s1-t11" name="Handles truncated segments">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=11</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:52:02.425" level="INFO">Starting tests...
+
+Results
+-------
+  11. Handles truncated segments ...................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:52:02.426" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:52:02.426" starttime="20170925 14:51:57.388"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:52:02.426" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:52:02.426" starttime="20170925 14:52:02.426"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:52:02.427" critical="yes" starttime="20170925 14:51:57.387">False != True</status>
+</test>
+<test id="s1-t12" name="Sends FIN when reading in EOF">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=12</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:52:07.456" level="INFO">Starting tests...
+
+Results
+-------
+  12. Sends FIN when reading in EOF ................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:52:07.456" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:52:07.456" starttime="20170925 14:52:02.427"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:52:07.457" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:52:07.457" starttime="20170925 14:52:07.456"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:52:07.457" critical="yes" starttime="20170925 14:52:02.427">False != True</status>
+</test>
+<test id="s1-t13" name="Tears down connection">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=13</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:52:22.493" level="INFO">Starting tests...
+
+Results
+-------
+  13. Tears down connection ........................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:52:22.494" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:52:22.494" starttime="20170925 14:52:07.458"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:52:22.495" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:52:22.495" starttime="20170925 14:52:22.494"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:52:22.495" critical="yes" starttime="20170925 14:52:07.457">False != True</status>
+</test>
+<test id="s1-t14" name="Handles sliding window">
+<kw name="Test Case" library="py-lab12-test">
+<arguments>
+<arg>num_testcase=14</arg>
+</arguments>
+<assign>
+<var>${ret}</var>
+</assign>
+<msg timestamp="20170925 14:52:32.549" level="INFO">Starting tests...
+
+Results
+-------
+  14. Handles sliding window .......................................... FAIL
+
+PASSED: 0/1</msg>
+<msg timestamp="20170925 14:52:32.550" level="INFO">${ret} = False</msg>
+<status status="PASS" endtime="20170925 14:52:32.550" starttime="20170925 14:52:22.496"></status>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${ret}</arg>
+<arg>${true}</arg>
+</arguments>
+<msg timestamp="20170925 14:52:32.551" level="FAIL">False != True</msg>
+<status status="FAIL" endtime="20170925 14:52:32.551" starttime="20170925 14:52:32.550"></status>
+</kw>
+<status status="FAIL" endtime="20170925 14:52:32.551" critical="yes" starttime="20170925 14:52:22.496">False != True</status>
+</test>
+<status status="FAIL" endtime="20170925 14:52:32.554" starttime="20170925 14:50:37.017"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="14" pass="0">Critical Tests</stat>
+<stat fail="14" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="14" id="s1" name="Robot-Lab12-Test" pass="0">Robot-Lab12-Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
